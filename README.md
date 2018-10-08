@@ -1,5 +1,4 @@
 # Text to Array
-This software is available for you to download and use, and is under the GNU license.
 
 This is a very simple program that will convert a list of words into an array. This may be useful when you have a list of names, or something else.
 
