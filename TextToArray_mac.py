@@ -4,13 +4,10 @@
 # Paste in your long list of text, with all seperate words seperated with a
 # space
 #------------------------------------------------------------------------------#
-import subprocess
+import os
 
-# Write to clipboard function
-def write_to_clipboard(output):
-    process = subprocess.Popen(
-        'pbcopy', env={'LANG': 'en_US.UTF-8'}, stdin=subprocess.PIPE)
-    process.communicate(output.encode('utf-8'))
+def write_to_clipboard(data):
+    os.system("echo '%s' | pbcopy" % data)
 
 print("(c) 2018 Uzair Tariq \nPlain text to array program \n")
 
