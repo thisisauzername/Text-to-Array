@@ -15,7 +15,7 @@ If you're on windows, go into the Command Prompt and type the following:
 
     pip install clipboard
 
-If that doesn't work, and it gives you an error that says:
+If that doesn't work, and it gives you an error that says something similar to:
 
     pip: command not found
 
