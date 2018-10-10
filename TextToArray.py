@@ -14,19 +14,19 @@ def write_to_clipboard(output):
 
 print("(c) 2018 Uzair Tariq \nPlain text to array program \n")
 
-input = ''
+plain_text = ''
 
-input = raw_input("Paste your text here. Make sure to seperate seperate items with a space between them: \n")
+plain_text = input("Paste your text here. Make sure to seperate seperate items with a space between them: \n")
 
-input = input.replace(" ", ", ")
+plain_text = plain_text.replace(" ", ", ")
 
 print("\nHere's your array: \n")
 
-array = '[' + input + ']'
+array = '[' + plain_text + ']'
 
 print(array)
 
-copy = raw_input("\nWould you like to copy the result? (y/n) \n")
+copy = input("\nWould you like to copy the result? (y/n) \n")
 
 if copy == 'y':
     write_to_clipboard(array)
