@@ -14,11 +14,16 @@ def write_to_clipboard(output):
 
 print("(c) 2018 Uzair Tariq \nPlain text to array program \n")
 
+string_or_not = input("Would you like the objects in your array to be converted into strings? (y/n) ")
+
 plain_text = ''
 
-plain_text = input("Paste your text here. Make sure to seperate seperate items with a space between them: \n")
+plain_text = input("\nPaste your text here. Make sure to seperate seperate items with a space between them: \n")
 
-plain_text = plain_text.replace(" ", ", ")
+if string_or_not == 'y':
+    plain_text = plain_text.replace(" ", "', '")
+else:
+    plain_text = plain_text.replace(" ", ", ")
 
 print("\nHere's your array: \n")
 
