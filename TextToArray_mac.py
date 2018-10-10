@@ -32,4 +32,4 @@ if copy == 'y':
     write_to_clipboard(array)
     print("\nCopied to clipboard! \n")
 elif copy == 'n':
-    ''
+    '\n'
