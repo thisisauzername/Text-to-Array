@@ -48,7 +48,7 @@ with
 
 on lines 17, 21, and 34.
 
-### For windows
+### For Windows
 
 Change the following:
 
