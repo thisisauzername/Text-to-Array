@@ -21,7 +21,10 @@ else:
 
 print("\nHere's your array: \n")
 
-array = '[' + plain_text + ']'
+if string_or_not == 'y':
+    array = "['" + plain_text + "']"
+else:
+    array = '[' + plain_text + ']'
 
 print(array)
 
