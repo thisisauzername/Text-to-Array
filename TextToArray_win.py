@@ -12,7 +12,7 @@ string_or_not = input("Would you like the objects in your array to be converted 
 
 plain_text = ''
 
-plain_text = input("Paste your text here. Make sure to seperate seperate items with a space between them: \n")
+plain_text = input("\nPaste your text here. Make sure to seperate seperate items with a space between them: \n")
 
 if string_or_not == 'y':
     plain_text = plain_text.replace(" ", "', '")
@@ -28,7 +28,7 @@ else:
 
 print(array)
 
-copy = input("\nWould you like to copy the result? (y/n) \n")
+copy = input("\nWould you like to copy the result? (y/n) ")
 
 if copy == 'y':
     clipboard.copy(array)

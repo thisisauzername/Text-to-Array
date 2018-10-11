@@ -34,7 +34,7 @@ else:
 
 print(array)
 
-copy = input("\nWould you like to copy the result? (y/n) \n")
+copy = input("\nWould you like to copy the result? (y/n) ")
 
 if copy == 'y':
     write_to_clipboard(array)
