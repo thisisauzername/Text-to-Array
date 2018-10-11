@@ -28,7 +28,7 @@ Once you have that done, you can use the program!
 
 ### MacOS
 
-MacOS is much simpler than Windows. You don't need to install anything, you can just jump right into the program!
+Although the Windows version may work, the Mac specific one is recommended because you don't need to install anything else. You can use the program right out of the box.
 
 ## Compatibility
 
